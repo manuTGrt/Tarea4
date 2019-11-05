@@ -36,15 +36,15 @@ public class NewMatematicasJUnitTest {
     public void tearDown() {
     }
     
-    public void sumaTest(int x, int y){
+    public void sumaTest(){
         int total = 8;
-        int sum=Calculadora.suma(x,y);
+        int sum=Calculadora.suma(4,4);
         assertEquals(sum,total);
     }
     
-    public void restaTest(int x, int y){
+    public void restaTest(){
         int total = 0;
-        int sub = Calculadora.sub(x,y);
+        int sub = Calculadora.sub(4,4);
         assertEquals(sub,total);
     }
 
