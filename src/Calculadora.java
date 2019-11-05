@@ -10,9 +10,9 @@
  */
 class Calculadora {
     public static int suma(int x, int y){
-        return 8;
+        return x+y;
     }
     public static int sub(int x, int y){
-        return 0;
+        return x-y;
     }
 }

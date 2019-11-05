@@ -36,12 +36,13 @@ public class NewMatematicasJUnitTest {
     public void tearDown() {
     }
     
+    @Test
     public void sumaTest(){
         int total = 8;
         int sum=Calculadora.suma(4,4);
         assertEquals(sum,total);
     }
-    
+    @Test
     public void restaTest(){
         int total = 0;
         int sub = Calculadora.sub(4,4);
